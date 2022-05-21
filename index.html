@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- start header  -->
+        <div class="container__header">
+            <div class="header--left">
+                <div class="logo"><img src="./img/logo-fb-4_1559752979.jpg">
+                </div>
+            </div>
+            <form action="">
+                <div class="header--right">
+                    <div class="email">
+                        <h5>Email or Phone</h5>
+                        <div class="box-email"> <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </div>
+                        <div class="box-email-tick"><input type="checkbox"> Keep me logged in</div>
+                    </div>
+                    <div class="password">
+                        <h5>Password</h5>
+                        <div class="box-password"> <input type="password"></div>
+                        <div class="box-password-tick"> <input type="checkbox"> Forgot your password
+                        </div>
+                    </div>
+                    <div class="button-login"> <button>Log In</button></div>
+                </div>
+            </form>
+
+        </div>
+        <!-- end header -->
+        <!-- start body -->
+        <div class="container__body">
+            <div class="main">
+                <div class="main--left">
+                    <div class="content">
+                        <div class="title">
+                            <h2>Connect with friends and the<br>world around you on Facebook.</h2>
+                        </div>
+                        <div class="title__list">
+                            <p> <img src="./img/7830616_filter_picture_icon.png " alt=""> <b>See photos and updates
+                                </b>friends in News Feed.</p><br>
+                            <p><img src="./img/2849799_multimedia_computer_pc_screen_monitor_icon.png" alt=""><b>Share what's new </b>in your
+                                life on your Timeline.</p><br>
+                            <p><img src="./img/2203530_connect_direction_path_way_icon.png" alt=""><b>Find more</b> of what you're
+                                looking for with Graph Search.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main--right">
+                    <div class="content">
+                        <div class="content__title">
+                            <h1 class="title">Sign Up</h1>
+                            <p class="title--desc">It's free and always will be.</p>
+                        </div>
+                        <div class="title--input">
+                            <div class="input--form">
+                                <form action="">
+                                    <div class="title--name">
+                                        <input type="text" placeholder="First name" maxlength="32" name="first_name"
+                                            pattern="[A-Za-z]{1,32}">
+                                        <input type="text" placeholder="Last name" maxlength="32" name="first_name"
+                                            pattern="[A-Za-z]{1,32}">
+                                    </div>
+
+                                    <div class="title--email">
+
+                                        <input type="text" placeholder="Email or mobile number"
+                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                        <br> <input type="text" placeholder="Re-enter email or mobile number"
+                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                    </div>
+                                    <div class="title--password">
+                                        <input type="password" placeholder="New password" pattern=".{8,}"
+                                            title="Eight or more characters">
+                                    </div>
+                                    <div class="birthday">
+                                        <p class="birthday__title">Birthday</p>
+                                        <div class="title--date">
+                                            <select name="month" id="month">
+                                                <option> Month
+                                                <option> Month</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <Option>December</Option>
+                                            </select>
+                                            <select name="day" id="day">
+                                                <option>Day
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                                <option value="">5</option>
+                                                <option value="">6</option>
+                                                <option value="">7</option>
+                                                <option value="">8</option>
+                                                <option value="">9</option>
+                                                <option value="">10</option>
+                                                <option value="">11</option>
+                                                <option value="">12</option>
+                                                <option value="">13</option>
+                                                <option value="">14</option>
+                                                <option value="">15</option>
+                                                <option value="">16</option>
+                                                <option value="">17</option>
+                                                <option value="">18</option>
+                                                <option value="">19</option>
+                                                <option value="">20</option>
+                                                <option value="">21</option>
+                                                <option value="">22</option>
+                                                <option value="">23</option>
+                                                <option value="">24</option>
+                                                <option value="">25</option>
+                                                <option value="">26</option>
+                                                <option value="">27</option>
+                                                <option value="">28</option>
+                                                <option value="">29</option>
+                                                <option value="">30</option>
+                                                <option value="">31</option>
+                                                </Option>
+                                            </select>
+                                            <select name="year" id="year">
+                                                <Option>Year
+                                                <option value="">2022</option>
+                                                <option value="">2021</option>
+                                                <option value="">2020</option>
+                                                <option value="">2019</option>
+                                                <option value="">2018</option>
+                                                <option value="">2017</option>
+                                                <option value="">2016</option>
+                                                <option value="">2015</option>
+                                                <option value="">2014</option>
+                                                <option value="">2013</option>
+                                                <option value="">2012</option>
+                                                <option value="">2011</option>
+                                                <option value="">2010</option>
+                                                <option value="">2009</option>
+                                                <option value="">2008</option>
+                                                <option value="">2007</option>
+                                                <option value="">2006</option>
+                                                <option value="">2005</option>
+                                                <option value="">2004</option>
+                                                <option value="">2003</option>
+                                                <option value="">2002</option>
+                                                <option value="">2001</option>
+                                                <option value="">2000</option>
+                                                <option value="">1999</option>
+                                                <option value="">1998</option>
+                                                <option value="">1997</option>
+                                                <option value="">1996</option>
+                                                <option value="">1995</option>
+                                                <option value="">1994</option>
+                                                <option value="">1993</option>
+                                                <option value="">1992</option>
+                                                <option value="">1991</option>
+                                                <option value="">1990</option>
+                                                <option value="">1989</option>
+                                                <option value="">1988</option>
+                                                <option value="">1987</option>
+                                                <option value="">1986</option>
+                                                <option value="">1985</option>
+                                                <option value="">1984</option>
+                                                <option value="">1983</option>
+                                                <option value="">1982</option>
+                                                <option value="">1981</option>
+                                                <option value="">1980</option>
+                                                <option value="">1979</option>
+                                                <option value="">1978</option>
+                                                <option value="">1977</option>
+                                                <option value="">1976</option>
+                                                </Option>
+                                            </select>
+                                            <a class="date--desc" href="">Why do I need to provide my birtday?</a>
+                                        </div>
+                                    </div>
+                                    <div class="gender">
+                                        <div class="gender__female">
+                                            <input id="female" type="radio" name="gender" value="female">
+                                            <label for="female">Female</label>
+                                        </div>
+                                        <div class="gender__male">
+                                            <input id="male" type="radio" name="gender" value="male">
+                                            <label for="male">Male</label>
+                                        </div>
+                                    </div>
+                                    <p class="content--desc">By clicking Sign Up, you agree to our <a href="#">Terms</a>
+                                        and
+                                        that
+                                        you have read our <a href="#">Data
+                                            use Policy</a>, including our <a href="#">Cookie Use.</a></p>
+                                    <div class="button">
+                                        <div class="button-sign-up"> <button type="submit" class="">Sign Up</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div class="content--end">
+                                    <p><a href="#">Create a Page</a> for celebrity, band or business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end body -->
+        <!-- start footer -->
+        <div class="container__footer">
+            <div class="footer__language">
+                <ul>
+                    <li><a href="#">English (UK)</a></li>
+                    <li><a href="#">Tiếng Việt</a></li>
+                    <li><a href="#">中文(台灣)</a></li>
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">日本語</a></li>
+                    <li><a href="#">Français (France)</a></li>
+                    <li><a href="#">ภาษาไทย</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Português (Brasil)</a></li>
+                    <li><a href="#">Deutsch</a></li>
+                </ul>
+            </div>
+            <div class="footer__menu">
+                <ul>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Find Friends</a></li>
+                    <li><a href="#">Badgets</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Places</a></li>
+                    <li><a href="#">Games</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end footer  -->
+    </div>
+</body>
+
+</html>
