@@ -30,6 +30,7 @@
     justify-content: end;
     gap: 20px;
     margin-right: 8px;
+    color: white;
 }
 .header--right .box-email, .header--right .box-password {
     height: 25px;
@@ -50,7 +51,9 @@ h5 {
     height: 25px;
     outline: none;
     border-radius: 3px;
-    border: 2px solid #333;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    /* border: 2px solid #333; */
     
 }
 .button-login button:hover {
